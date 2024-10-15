@@ -1,0 +1,6 @@
+@L2.Avaliacao.Manoel.API_HostAddress = http://localhost:5071
+
+GET {{L2.Avaliacao.Manoel.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
