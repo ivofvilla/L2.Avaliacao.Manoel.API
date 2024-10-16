@@ -29,7 +29,7 @@ namespace L2.Avaliacao.Manoel.API.Domain.Commands.Pedido.Create
     {
         public ProdutoValidator()
         {
-            RuleFor(x => x.Produto_id).NotEmpty().WithMessage("O ID do produto não pode ser nulo.");
+            RuleFor(x => x.Produto_Id).NotEmpty().WithMessage("O ID do produto não pode ser nulo.");
             RuleFor(x => x.Dimensoes)
                 .NotNull().WithMessage("As dimensões devem ser fornecidas.")
                 .SetValidator(new DimensoesValidator());

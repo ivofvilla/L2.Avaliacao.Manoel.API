@@ -3,7 +3,6 @@
     public class PedidoSaida
     {
         public int pedido_Id { get; set; }
-        public List<Caixas> Caixas = new List<Caixas>();
-
+        public List<Caixa> Caixas = new List<Caixa>();
     }
 }

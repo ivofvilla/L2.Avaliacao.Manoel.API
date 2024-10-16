@@ -7,5 +7,10 @@
         public int Comprimento { get; set; }
 
         public int Volume() => this.Altura * this.Largura * this.Comprimento;
+
+        public bool CabeNaCaixa(Dimensoes caixa)
+        {
+            return Altura <= caixa.Altura && Largura <= caixa.Largura && Comprimento <= caixa.Comprimento;
+        }
     }
 }
